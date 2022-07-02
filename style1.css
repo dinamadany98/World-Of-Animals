@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: #114c72;
+    background-image:url(ima/bk0.jpg);
+    background-size: cover;
+  }
+  
+  .apper {
+    width: 100%;
+  }
+  
+  .apper .carousel {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 60px;
+  }
+  
+  .carousel .card {
+    height: 400px;
+    border-radius: 5px;
+  }
+  
+  #c1 {
+    background: url(ima/1.jpg) no-repeat center center/cover;
+  }
+  
+  #c2 {
+    background: url(ima/2.jpg) no-repeat center center/cover;
+  }
+  
+  #c3 {
+    background: url(ima/3.jpg) no-repeat center center/cover;
+  }
+  
+  #c4 {
+    background: url(ima/4.jpeg) no-repeat center center/cover;
+  }
+  
+  #c5 {
+    background: url(ima/5.jpg) no-repeat center center/cover;
+  }
+  
+  #c6 {
+    background: url(ima/6.jpg) no-repeat center center/cover;
+  }
+  #c7 {
+    background: url(ima/7.jpg) no-repeat center center/cover;
+  }
+  #c8 {
+    background: url(ima/8.jpg) no-repeat center center/cover;
+  }
+
+  #c9 {
+    background: url(ima/9.jpg) no-repeat center center/cover;
+  } 
+
+ #c10 {
+    background: url(ima/25.jpg) no-repeat center center/cover;
+  }
+  #c11 {
+    background: url(ima/09.jpg) no-repeat center center/cover;
+  }
+  #c12 {
+    background: url(ima/12.jpg) no-repeat center center/cover;
+  }
+  #c13 {
+    background: url(ima/13.jpg) no-repeat center center/cover;
+  }
+  #c14 {
+    background: url(ima/14.jpg) no-repeat center center/cover;
+  }
+  #c15 {
+    background: url(ima/15.jpg) no-repeat center center/cover;
+  }
+  #c16 {
+    background: url(ima/27.jpg) no-repeat center center/cover;
+  }
+  #c17 {
+    background: url(ima/17.jpg) no-repeat center center/cover;
+  }
+  #c18 {
+    background: url(ima/18.jpeg) no-repeat center center/cover;
+  }
+  #c19 {
+    background: url(ima/19.jpg) no-repeat center center/cover;
+  }
+  #c20 {
+    background: url(ima/22.jpg) no-repeat center center/cover;
+  }
+  #c21 {
+    background: url(ima/33.jpg) no-repeat center center/cover;
+  }
+  #c22 {
+    background: url(ima/76.jpg) no-repeat center center/cover;
+  }
+  #c22 {
+    background: url(ima/99.jpg) no-repeat center center/cover;
+  }
+  #c23 {
+    background: url(ima/cont.jpg) no-repeat center center/cover;
+  }
+  #c24 {
+    background: url(ima/f.jpg) no-repeat center center/cover;
+  }
+  #c25 {
+    background: url(ima/o.jpg) no-repeat center center/cover;
+  }
+  #c26 {
+    background: url(ima/r.jpg) no-repeat center center/cover;
+  }
+  #c27 {
+    background: url(ima/tt.jpg) no-repeat center center/cover;
+  }
+  #c28 {
+    background: url(ima/u.jpg) no-repeat center center/cover;
+  }
+  #c29 {
+    background: url(ima/uy.jpg) no-repeat center center/cover;
+  }
+  #c30 {
+    background: url(ima/uu.jpg) no-repeat center center/cover;
+  }
+  #c31 {
+    background: url(ima/26.jpg) no-repeat center center/cover;
+  }
+  #c32 {
+    background: url(ima/24.jpg) no-repeat center center/cover;
+  }
+
+  
+  .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .owl-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    border: 2px solid #fff !important;
+    transition: all 0.3s ease;
+  }
+  
+  .owl-dot:hover,
+  .owl-dot.active {
+    background-color: #fff !important;
+  }
+  
+  .owl-prev,
+  .owl-next {
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .owl-prev {
+    left: 40px;
+  }
+  
+  .owl-next {
+    right: 20px;
+  }
+  
+  .fa-chevron-left,
+  .fa-chevron-right {
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.2s;
+  }
+  
+  .fa-chevron-left:hover,
+  .fa-chevron-right:hover {
+    color: #777;
+  }

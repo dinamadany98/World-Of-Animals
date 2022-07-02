@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script
+                src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                crossorigin="anonymous">
+                
+        </script>
+        <style>
+         body
+         {
+             background-color: #00545d; 
+             color: white;
+             
+         }
+         #dd1{
+             background-image: url("ima/d.jpg");
+             background-repeat: no-repeat;
+            max-width: 100%;
+             height: 200px;
+         }
+         img{
+            border-radius:10px;
+            width:277px;
+             height:200px;
+         }
+         div{
+            float: left;
+                margin-top: 100px;
+                margin-left: 80px;
+               
+                width: 22%;
+                height: 300px;
+         } 
+         span{
+             text-align: center;
+             color:wheat;
+             font-family:"lucida calligraphy",cursive; 
+             padding-left: 80px; 
+             font-size: larger;
+             font-weight: 700;
+         
+            
+         }
+        </style>
+        
+    </head>
+ 
+        <body>
+            <div class="a"><span>Persian</span> <br> <br><img src="ima/c1.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">Everyone knows the Persian cat, which is famous for its fur, expressive eyes and the extension of its face. 
+                    The Persian is also one of the oldest cat breeds. It is calm and loving gently and loves a calm environment.
+                     The Persian needs to be combed and decorated daily because of the length of his hair.
+                     </p> </div> 
+             <div class="a"><span>Maine Coon</span> <br><br><img src="ima/c2.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">This beautiful cat is one of the largest breeds of domestic cats, and the Maine Coon takes three to four years
+                    To reach full physical maturity, she has a very thick fur with a waterproof layer, 
+                    has wide and large paws to make it suitable for walking on the snow.
+                    </p> </div> 
+            <div class="a"><span>Persian cat</span> <br><br><img src="ima/c3.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">The Shirazi cat is considered one of the quietest types of cats and has long hair, 
+                    and tends to sleep and stagnate for long periods, and it is thick in bones and due to its distinctive shape,
+                     it is preferred by many people to acquire it, which is relatively short and its hair is divided into two layer. </p> </div>
+             <div class="b"><span>Siberian cat</span> <br><br><img src="ima/c4.jpg" width="50px" height="50px" id="d1"> 
+                 <p id="p1">The origin of the Siberian cat is due to the Russian mountains, and it is characterized by many characteristics, 
+                     including thick and beautiful hair and multicoloredness, 
+                     where we find brown, cream, silver and red, and the color of the eyes may be green, blue or golden, </p> </div>                    
+             <div class="b"><span>british shorthair   </span> <br><br><img src="ima/c5.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">These lovely cats have thick, sturdy looking bodies, round heads, and soft blue-gray fur. Their calm personality and low energy levels make them great companion choices for first-time cat owners. British Shorthair cats like to eat a lot, 
+                    so you should feed them two or three meals throughout the day rather than giving them a large bowl to eat in their spare time.</p> </div>                    
+             <div class="b"><span>ragdoll cat</span> <br><br><img src="ima/c6.jpg" width="50px" height="50px" id="d1"> 
+             <p id="p1">The Ragdoll cat has a very distinctive shape from the rest of the other breeds, 
+                 as it is characterized by blue eyes and thick white fur that complements its appearance. 
+                 These cats require brushing their teeth from time to time, 
+                 and combing their thick hair twice a week to protect it from microbes.
+            </p> </div>                    
+       
+       
+           
+    
+            <script>
+               
+                $(document).ready(function(){
+                    $("p").slideUp();
+                    $("img").click(function(){
+                     $(this).next().slideToggle();
+      });
+    
+                  
+                })
+    
+                
+            </script>
+            
+        </body>
+    </html>

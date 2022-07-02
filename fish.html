@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script
+                src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                crossorigin="anonymous">
+                
+        </script>
+        <style>
+         body
+         {
+             background-color: #00545d; 
+             color: white;
+             
+         }
+         #dd1{
+             background-image: url("ima/d.jpg");
+             background-repeat: no-repeat;
+            max-width: 100%;
+             height: 200px;
+         }
+         img{
+            border-radius:10px;
+            width:277px;
+             height:200px;
+         }
+         div{
+            float: left;
+                margin-top: 100px;
+                margin-left: 80px;
+               
+                width: 22%;
+                height: 300px;
+         } 
+         span{
+             text-align: center;
+             color:wheat;
+             font-family:"lucida calligraphy",cursive; 
+             padding-left: 80px; 
+             font-size: larger;
+             font-weight: 700;
+            
+         }
+        </style>
+        
+    </head>
+ 
+        <body>
+            <div class="a"><span>Fire-mouthed</span> <br> <br><img src="ima/f1.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">Fire-mouthed cichlid fish is a type of ornamental fish native to Central America, 
+                    and it is considered one of the wonderful freshwater fish that is suitable for large home aquariums,
+                     and got its name from the intense red color lines that appear near its mouth  during the breeding season.</p> </div> 
+             <div class="a"><span>Pearl gourami</span> <br><br><img src="ima/f2.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">Pearl gourami is one of the most famous types of aquarium fish and is a type of fish 
+                    that belongs to the family Anabantoidide or gourami, 
+                    and the family includes different species such as mosaic, diamond and leary.</p> </div> 
+            <div class="a"><span>Cherry Barb</span> <br><br><img src="ima/f3.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">The Cherry Barb reaches 2 inches when mature, and is another low-maintenance fish although it
+                     may take a little longer to settle than most of the other species mentioned above. 
+                     The tail, its stunning appearance along with its highly energetic nature. </p> </div>
+             <div class="b"><span>Betta fish</span> <br><br><img src="ima/ب4.jpg" width="50px" height="50px" id="d1"> 
+                 <p id="p1"> Siamese or betta fish are wonderful ornamental fish and are in stiff competition with the common goldfish. 
+                     Betta fish are the second most popular fish and are an absolute favorite among beginners and experts alike,
+                      and come in a range of different vibrant colors such as Intense orange,
+                      rich blue, stunning pink </p> </div>                    
+             <div class="b"><span>Dnio fish   </span> <br><br><img src="ima/ب5.jpg" width="50px" height="50px" id="d1">
+                <p id="p1"> Ideal for beginners, Danio is a hardy aquarium fish that will do well in various environments and be content with regular fish food.
+                 These fish are native to the Himalayas and can reach up to 6.4 centimeters (or 2.5 inches) in length. 
+                 However, their average size is Only 4 cm (about 1.5 inches) long,
+                 they are approximately three years old if kept in proper conditions.</p> </div>                    
+             <div class="b"><span>Platy fish</span> <br><br><img src="ima/ب6.jpg" width="50px" height="50px" id="d1"> 
+             <p id="p1">Platy fish originated from the eastern coast of Central America and southern Mexico.
+                  It is one of the most popular types of freshwater aquarium fish that is a good choice to keep in an aquarium.
+                  It is friendly in nature and will fit well with other species in the aquarium as long as it is not aggressive
+            </p> </div>                    
+       
+       
+           
+    
+            <script>
+               
+                $(document).ready(function(){
+                    $("p").slideUp();
+                    $("img").click(function(){
+                     $(this).next().slideToggle();
+      });
+    
+                  
+                })
+    
+                
+            </script>
+            
+        </body>
+    </html>

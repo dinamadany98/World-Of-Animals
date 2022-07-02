@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script
+                src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                crossorigin="anonymous">
+                
+        </script>
+        <style>
+         body
+         {
+             background-color: #00545d; 
+             color: white;
+             
+         }
+         #dd1{
+             background-image: url("ima/d.jpg");
+             background-repeat: no-repeat;
+            max-width: 100%;
+             height: 200px;
+         }
+         img{
+            border-radius:10px;
+            width:277px;
+             height:200px;
+         }
+         div{
+            float: left;
+                margin-top: 100px;
+                margin-left: 80px;
+               
+                width: 22%;
+                height: 300px;
+         } 
+         span{
+             text-align: center;
+             color:wheat;
+             font-family:"lucida calligraphy",cursive; 
+             padding-left: 80px; 
+             font-size: larger;
+             font-weight: 700;
+            
+         }
+        </style>
+        
+    </head>
+ 
+        <body>
+            <div class="a"><span>Papillon dog</span> <br> <br><img src="ima/d2.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">It is a medium-sized dog with thick hair and black and round eyes. <br>
+                    It is of French origin.
+                     The Papillon dog is one of the pet dogs that you can raise at home,
+                     as it is considered one of the dogs that responds to the orders of its breeder and implements them.</p> </div> 
+             <div class="a"><span>Bolognese dogs</span> <br><br><img src="ima/bolognse.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">Bolognese dogs originated in Italy and are considered one of the pet dogs that you can raise at home,
+                 where they do not exhibit aggressive behavior, but on the contrary are very friendly with children and love 
+                to have fun and are distinguished</p> </div> 
+            <div class="a"><span>Keeshond</span> <br><br><img src="ima/d3.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">A large local breed, which brought the Eskimo tribes to work in skiing. Alaskan Malamutes do not bark, 
+                but communicate by grumbling and howling.
+                But this is not the only advantage - dogs need regular physical exertion and are not suitable for everyone </p> </div>
+             <div class="b"><span>Samoyed dog</span> <br><br><img src="ima/d4.jpg" width="50px" height="50px" id="d1"> 
+                 <p id="p1">A rather rare breed of the Spitz type, whose representatives love to "smile". Like other spitz, 
+                 keeskhonda has a touching appearance, a luxurious fur coat and a tail in the form of a ring.
+                 Their curiosity and creativity allow them to master the most difficult tricks, especially without stress</p> </div>                    
+             <div class="b"><span>Maltese </span> <br><br><img src="ima/d5.jpg" width="50px" height="50px" id="d1"> 
+                <p id="p1">or Arctic Spitz - a beautiful white dog that once lived in the northern nomadic tribes - herds cattle, chases them, 
+                drives them to a sleigh, and even watches the master's children. 
+                Although the Samoyed dog has not lost its practical properties, today it can be found at exhibitions</p> </div>                    
+             <div class="b"><span>hin Japanese</span> <br><br><img src="ima/d6.jpg" width="50px" height="50px" id="d1"> 
+             <p id="p1">The name of the breed is translated as precious dog, but it is not known for certain where it originated - in Tibet or in Japan.
+             The Japanese Hin is a small decorative dog that, despite its modest size, can stand up for itself and its owner
+
+            </p> </div>                    
+       
+       
+           
+    
+            <script>
+               
+                $(document).ready(function(){
+                    $("p").slideUp();
+                    $("img").click(function(){
+                     $(this).next().slideToggle();
+      });
+    
+                  
+                })
+    
+                
+            </script>
+            
+        </body>
+    </html>
